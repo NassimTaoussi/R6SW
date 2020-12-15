@@ -1,0 +1,138 @@
+@media (min-width: 501px) and (max-width: 959px)
+{
+
+/* -------------------- HEADER -------------------- */
+	header {
+		height:30%;
+	}	
+
+	.title {
+		padding-top: 50px;
+		color: white;
+	}
+
+	/* -------------------- CONTAINER / SECTION -------------------- */
+
+
+
+/* _____ | Container "containerArticles" | _____ */ 
+
+	#containerArticles {
+		height: 600px;
+	}
+
+/* --#-- | Section 1 | --#-- */ 
+
+	#section1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+
+	.blocline1:nth-child(3) {
+	background-color: red;
+	display: none;
+	}
+
+	.blocline1:nth-child(4) {
+	background-color: red;
+	display: none;
+	}
+
+	.blocline1:nth-child(5) {
+	background-color: red;
+	display: none;
+	}
+
+	.blocline1:nth-child(6) {
+	background-color: orange;
+	display: none;
+	}
+
+/* */
+.match {
+	width: 40%;
+}
+
+.match:last-child {
+	display: none;
+}
+
+/* -------------------- FOOTER -------------------- */
+
+footer {
+	width: 100%;
+	height: 200px;
+	font-family: 'Quicksand';
+}
+
+/* --#-- | Div container englobante | --#-- */
+#footerContainer {
+	height: 100%;
+	width: 70%;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+
+/* --#-- | Div des icons dans le footer | --#-- */
+#iconFollow {
+	height: 100%;
+	width: 50%;
+
+}
+
+#follow {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+/* --#-- | Icons dans le footer | --#-- */
+#socialIcon {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.fa-twitter {
+	margin-right: 0px;
+
+}
+
+.fa-facebook-square {
+	margin-right: 0px;
+}
+
+.fa-instagram {
+	margin-right: 0px;
+}
+
+.fa-youtube {
+	margin-right: 0px;
+}
+
+.fa-discord {
+	margin-right: 0px;
+}
+
+.fa-reddit {
+	margin-right: 0px;
+}
+
+/* --#-- | Div de la liste dans le footer | --#-- */
+#listeFooter {
+	height: 100%;
+	width: 50%;	
+}
+
+
+/* --#-- | "li" | --#-- */
+
+	.linkFooter {
+		font-size: 15px;
+	}
+
+}

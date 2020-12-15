@@ -1,0 +1,55 @@
+@media (min-width: 960px) 
+{
+
+.title {
+	color: white;
+}
+
+/* -------------------- CONTAINER / SECTION -------------------- */
+
+
+
+/* _____ | Container "containerArticles" | _____ */ 
+
+	#containerArticles {
+		height: 320px;
+	}
+
+/* --#-- | Section 1 | --#-- */ 
+
+	#section1 {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+
+	.blocline1 {
+		margin-right: 0px;
+	}
+
+	.blocline1:nth-child(4) {
+	background-color: red;
+	display: none;
+	}
+
+	.blocline1:nth-child(5) {
+	background-color: red;
+	display: none;
+	}
+
+	.blocline1:nth-child(6) {
+	background-color: orange;
+	display: none;
+	}
+
+/* --#-- | "li" | --#-- */
+
+	.linkFooter {
+		font-size: 15px;
+	}
+
+}
+
+}

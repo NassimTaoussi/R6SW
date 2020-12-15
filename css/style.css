@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:300,400,700');
+
+/* -------------------- BODY -------------------- */
+
+html, body {
+ margin:0;
+ padding:0;
+ scroll-behavior: auto;
+ }
+
+@font-face {
+  font-family: Rainbow;
+  src: url('../font/Rainbow.ttf');
+}
+
+/* -------------------- HEADER -------------------- */
+
+header {
+	background-image : url("../img/mute.png");
+	width:100%;
+	height:500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.title {
+
+	text-align: center;
+	font-family: "Rainbow", cursive;
+	font-size: 120px;
+	text-shadow: 1px 1px black;
+	padding-top: 200px;
+}
+
+.slogan {
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	color: white;
+	text-shadow: 1px 1px black;
+
+}
+
+
+/* -------------------- CONTAINER / SECTION -------------------- */
+
+/* _____ | Container "containerArticles" | _____ */ 
+
+#containerArticles { 
+	width:100%;
+	height:600px;
+	background-color: white;
+}
+
+/* --#-- | Section 1 | --#-- */ 
+
+#section1 { 
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	opacity: 100%;
+	vertical-align: middle;
+	flex-wrap: wrap;
+}
+
+.blocline1 {
+	border: 5px solid black;
+	width: 300px;
+	height: 200px;
+	margin-right: 2%;
+	margin-top: 60px;
+}
+
+
+.blocline1 .blogArticle {
+	object-fit: cover;
+	width: 100%;
+	height: 100%
+}
+
+/* _____ | Container "containerYoutube" | _____ */
+
+#containerYoutube {
+	width:100%;
+	height:322px;
+}
+
+#videoTrailerProleague {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0%;
+	vertical-align: middle;
+	margin-top: 150px;
+}
+
+/* _____ | Container "lastMatchProleague" | _____ */
+
+#lastMatchProLeague {
+	width:100%;
+	height:250px;
+	background-color: grey;
+	border: 2px solid black;
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+#videosMatch {
+	width: 100%;
+}
+
+#titleLastMatch {
+	font-family: 'Quicksand';
+	font-size: 17px;
+	padding-top: 8px; 
+	text-align: center;
+
+}
+
+#containerMatchPro {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.match {
+	margin-top: 30px;
+	width: 25%;
+	height:150px;
+}
+
+
+/* _____ | Container "directTwitch" | _____ */
+
+#directTwitch {
+	width:100%;
+	height:	418px;
+	margin-bottom: 100px;
+	margin-top: 150px;
+}
+
+/* --#-- | Div englobante Twitch | --#-- */
+#blocTwitch {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0%;
+}
+
+/* --#-- | Div "class" du titre Twitch | --#-- */
+.titleTwitch { 
+	border: 2px solid black;
+	margin-bottom: 20px;
+}
+/* --#-- | Titre Twitch | --#-- */
+#directLive {
+	text-align: center;
+	font-family: 'Quicksand';
+	font-size: 16px;
+	padding-top: 5px;
+}
+
+/* --#-- | Div "class" de l'iframe Twitch | --#-- */
+.iframeTwitch {
+	display: flex;
+	justify-content: center;
+
+}
+
+/* -------------------- FOOTER -------------------- */
+
+footer {
+	width: 100%;
+	height: 200px;
+	font-family: 'Quicksand';
+}
+
+/* --#-- | Div container englobante | --#-- */
+#footerContainer {
+	height: 100%;
+	width: 70%;
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+}
+
+/* --#-- | Div des icons dans le footer | --#-- */
+#iconFollow {
+	height: 100%;
+	width: 35%;
+
+
+}
+
+#follow {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* --#-- | Icons dans le footer | --#-- */
+#socialIcon {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.fa-twitter {
+	margin-right: 30px;
+}
+
+.fa-facebook-square {
+	margin-right: 30px;
+	
+}
+
+.fa-instagram {
+
+}
+
+.fa-youtube {
+	margin-right: 30px;
+}
+
+.fa-discord {
+	margin-right: 30px;
+}
+
+.fa-reddit {
+
+}
+
+/* --#-- | Div de la liste dans le footer | --#-- */
+#listeFooter {
+	height: 100%;
+	width: 35%;	
+}
+
+/* --#-- | "ul" | --#-- */
+
+.ulListe {
+	margin-top: 10px; 
+	text-align: center;
+	padding-top: 5px;
+}
+
+/* --#-- | "li" | --#-- */
+
+.linkFooter {
+	
+}
+
+/* --#-- | Div du Copyright | --#-- */
+#blocFinal {
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid black;
+}
+
+/* --#-- | Texte dans le Copyright | --#-- */
+.copyrightId {
+	text-align: center;
+	padding-top: 12px;
+
+}
+
+/* MEDIA QUERIES !!! */
+
+

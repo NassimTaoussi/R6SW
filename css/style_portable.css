@@ -1,0 +1,159 @@
+@media (min-width: 0px) and (max-width: 500px)
+{
+
+/* -------------------- HEADER -------------------- */
+	header {
+		height:30%;
+		background-image : url("../img/mute-tablette.jpg")
+	}	
+
+	.title {
+		padding-top: 100px;
+		color: white;
+		font-size: 90px;
+	}
+
+	.slogan {
+		font-size: 30px;
+	}
+
+/* -------------------- CONTAINER / SECTION -------------------- */
+
+
+
+/* --#-- | Section 1 | --#-- */ 
+
+	#section1 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+
+	.blocline1:nth-child(3) {
+	display: none;
+	}
+
+	.blocline1:nth-child(4) {
+	display: none;
+	}
+
+	.blocline1:nth-child(5) {
+	display: none;
+	}
+
+	.blocline1:nth-child(6) {
+	display: none;
+	}
+/* ------------ -------------------- */
+
+.match {
+	width: 60%;
+}
+
+.match:first-child {
+	display: none;
+}
+
+.match:last-child {
+	display: none;
+}
+
+
+
+/* -------------------- FOOTER -------------------- */
+
+footer {
+	width: 100%;
+	height: 200px;
+	font-family: 'Quicksand';
+}
+
+/* --#-- | Div container englobante | --#-- */
+#footerContainer {
+	height: 100%;
+	width: 70%;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+
+/* --#-- | Div des icons dans le footer | --#-- */
+#iconFollow {
+	height: 100%;
+	width: 50%;
+}
+
+#follow {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+/* --#-- | Icons dans le footer | --#-- */
+#socialIcon {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.fa-twitter {
+	margin-right: 0px;
+}
+
+.fa-facebook-square {
+	margin-right: 0px;
+}
+
+.fa-instagram {
+	margin-right: 0px;
+}
+
+.fa-youtube {
+	margin-right: 0px;
+}
+
+.fa-discord {
+	margin-right: 0px;
+}
+
+.fa-reddit {
+	margin-right: 0px;
+}
+
+/* --#-- | Div de la liste dans le footer | --#-- */
+#listeFooter {
+	height: 100%;
+	width: 50%;
+}
+
+/* --#-- | "ul" | --#-- */
+
+.ulListe {
+	margin-top: 10px; 
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 10px; 
+}
+
+/* --#-- | "li" | --#-- */
+
+.linkFooter {
+	font-size: 13px
+	margin-bottom: 5px;
+}
+
+/* --#-- | Div du Copyright | --#-- */
+#blocFinal {
+	width: 100%;
+	height: 50px;
+}
+
+/* --#-- | Texte dans le Copyright | --#-- */
+.copyrightId {
+	text-align: center;
+	padding-top: 12px;
+	font-size: 13px;
+}
+
+}
